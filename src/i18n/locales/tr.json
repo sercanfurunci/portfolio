@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "projects": "Projeler",
+    "skills": "Yetenekler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "title": "Junior Full-Stack Developer",
+    "description": "React.js ve Spring Boot odaklı, kullanıcı dostu web uygulamaları ve ölçeklenebilir backend servisleri geliştirmeye tutkulu bir yazılım geliştiriciyim.",
+    "cta_projects": "Projelerimi Gör",
+    "cta_contact": "İletişime Geç",
+    "scroll": "Kaydır"
+  },
+  "about": {
+    "label": "Hakkımda",
+    "title": "Kimim, neler yapıyorum?",
+    "p1": "Karabük Üniversitesi Bilgisayar Mühendisliği mezunuyum. Lisans eğitimimin yanı sıra Litvanya'daki Vilnius Gediminas Teknik Üniversitesi'nde değişim programına katıldım.",
+    "p2": "Staj ve TÜBİTAK destekli projeler aracılığıyla full-stack geliştirme konusunda uygulamalı deneyim kazandım. React.js ve Spring Boot üzerinde güçlü bir odakla, kullanıcı dostu web uygulamaları ve RESTful API'ler geliştiriyorum.",
+    "p3": "Ürün odaklı ekiplerde Junior Full-Stack Developer olarak büyümeye ve katkı sağlamaya motive olmuş durumdayım.",
+    "facts": {
+      "location_label": "Konum",
+      "location_value": "Kocaeli, Türkiye",
+      "education_label": "Eğitim",
+      "education_value": "Bilgisayar Mühendisliği, Karabük Üniversitesi",
+      "language_label": "Dil",
+      "language_value": "İngilizce (Professional)",
+      "phone_label": "Telefon"
+    }
+  },
+  "experience": {
+    "label": "Deneyim",
+    "title": "Çalıştığım Yerler",
+    "jobs": [
+      {
+        "company": "Mahrek Technology",
+        "location": "Gebze, Türkiye",
+        "role": "Software Developer (Stajyer)",
+        "period": "Ağu 2022 – Oca 2023",
+        "items": [
+          "React.js, Redux ve Redux Toolkit kullanarak responsive kullanıcı arayüzleri geliştirdim.",
+          "Yeniden kullanılabilir UI componentları oluşturarak paylaşılan bir tasarım sistemine katkıda bulundum.",
+          "Uluslararasılaştırma (i18n) özellikleri implement ettim.",
+          "Agile sprintlerde çalışarak frontend ekibiyle iş birliği yaptım."
+        ]
+      },
+      {
+        "company": "Busana Tech",
+        "location": "İstanbul, Türkiye",
+        "role": "Software Developer",
+        "period": "Şub 2024 – Mar 2024",
+        "items": [
+          "Blockchain entegrasyonlu bir web uygulamasına katkıda bulundum.",
+          "Firebase kullanarak kripto ödeme sistemi üzerinde çalıştım.",
+          "Frontend–backend entegrasyonunu destekledim."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projeler",
+    "title": "Neler Geliştirdim?",
+    "items": [
+      {
+        "name": "Birik",
+        "description": "Kişisel bütçe ve harcama takip uygulaması. Kullanıcıların gelir/gider yönetimi yapabileceği, kategorilere göre filtreleme ve görselleştirme imkânı sunan bir web uygulaması."
+      },
+      {
+        "name": "LstmCryptoBot",
+        "description": "Python ve LSTM sinir ağları kullanılarak geliştirilen yapay zeka tabanlı kripto para ticaret botu. Bitcoin fiyat verileri üzerinde zaman serisi analizi yapılarak TensorFlow/Keras ile model eğitildi. Backtrader ile strateji backtesting ve Docker ile konteynerizasyon gerçekleştirildi."
+      },
+      {
+        "name": "Kadın Emeği",
+        "description": "TÜBİTAK destekli ikinci el pazar yeri uygulaması. Spring Boot ile backend servisleri ve React.js ile frontend özellikleri geliştirildi."
+      }
+    ]
+  },
+  "skills": {
+    "label": "Yetenekler",
+    "title": "Teknoloji Stackim",
+    "groups": [
+      { "title": "Frontend" },
+      { "title": "Backend" },
+      { "title": "Araçlar & Diğer" }
+    ],
+    "education_title": "Eğitim",
+    "education": [
+      {
+        "period": "09/2018 – 03/2024",
+        "degree": "Bilgisayar Mühendisliği",
+        "school": "Karabük Üniversitesi"
+      },
+      {
+        "period": "09/2021 – 02/2022",
+        "degree": "Bilgisayar Bilimi (Değişim Programı)",
+        "school": "Vilnius Gediminas Technical University, Litvanya"
+      }
+    ]
+  },
+  "contact": {
+    "label": "İletişim",
+    "title": "Birlikte Çalışalım",
+    "description": "Yeni fırsatlara, freelance projelere veya sadece bir merhaba demek isteyenlere her zaman açığım.",
+    "cta": "Mesaj Gönder"
+  },
+  "footer": {
+    "rights": "Sercan Furunci · furunci.tech"
+  }
+}

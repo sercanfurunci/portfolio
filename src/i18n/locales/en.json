@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "title": "Junior Full-Stack Developer",
+    "description": "A passionate software developer focused on React.js and Spring Boot, building user-friendly web applications and scalable backend services.",
+    "cta_projects": "View Projects",
+    "cta_contact": "Get in Touch",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "About",
+    "title": "Who am I and what do I do?",
+    "p1": "I'm a Computer Engineering graduate from Karabük University. Alongside my undergraduate studies, I participated in an exchange program at Vilnius Gediminas Technical University in Lithuania.",
+    "p2": "I gained hands-on full-stack development experience through internships and TÜBİTAK-supported projects. With a strong focus on React.js and Spring Boot, I build user-friendly web applications and RESTful APIs.",
+    "p3": "I'm motivated to grow and contribute as a Junior Full-Stack Developer in product-focused teams.",
+    "facts": {
+      "location_label": "Location",
+      "location_value": "Kocaeli, Turkey",
+      "education_label": "Education",
+      "education_value": "Computer Engineering, Karabük University",
+      "language_label": "Language",
+      "language_value": "English (Professional Working Proficiency)",
+      "phone_label": "Phone"
+    }
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Where I've Worked",
+    "jobs": [
+      {
+        "company": "Mahrek Technology",
+        "location": "Gebze, Turkey",
+        "role": "Software Developer (Intern)",
+        "period": "Aug 2022 – Jan 2023",
+        "items": [
+          "Developed responsive user interfaces using React.js, Redux, and Redux Toolkit.",
+          "Built reusable UI components and contributed to a shared design system.",
+          "Implemented internationalization (i18n) features.",
+          "Worked in agile sprints and collaborated with frontend team members."
+        ]
+      },
+      {
+        "company": "Busana Tech",
+        "location": "Istanbul, Turkey",
+        "role": "Software Developer",
+        "period": "Feb 2024 – Mar 2024",
+        "items": [
+          "Contributed to a blockchain-integrated web application.",
+          "Worked on a crypto payment system using Firebase.",
+          "Supported frontend–backend integration."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "What Have I Built?",
+    "items": [
+      {
+        "name": "Birik",
+        "description": "A personal budget and expense tracking application. A web app that allows users to manage income/expenses, filter by categories, and visualize their financial data."
+      },
+      {
+        "name": "LstmCryptoBot",
+        "description": "An AI-based cryptocurrency trading bot built with Python and LSTM neural networks. Time-series analysis was performed on Bitcoin price data, models trained with TensorFlow/Keras, backtested with Backtrader, and containerized with Docker."
+      },
+      {
+        "name": "Kadın Emeği",
+        "description": "A TÜBİTAK-supported second-hand marketplace application. Backend services built with Spring Boot and frontend features developed with React.js."
+      }
+    ]
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "My Tech Stack",
+    "groups": [
+      { "title": "Frontend" },
+      { "title": "Backend" },
+      { "title": "Tools & Other" }
+    ],
+    "education_title": "Education",
+    "education": [
+      {
+        "period": "09/2018 – 03/2024",
+        "degree": "Computer Engineering",
+        "school": "Karabük University"
+      },
+      {
+        "period": "09/2021 – 02/2022",
+        "degree": "Computer Science (Exchange Program)",
+        "school": "Vilnius Gediminas Technical University, Lithuania"
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's Work Together",
+    "description": "I'm always open to new opportunities, freelance projects, or just a friendly hello.",
+    "cta": "Send Message"
+  },
+  "footer": {
+    "rights": "Sercan Furunci · furunci.tech"
+  }
+}
