@@ -17,6 +17,11 @@ const projectMeta = [
     url: null,
     github: 'https://github.com/sercanfurunci',
   },
+  {
+    tags: ['React 19', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'Tailwind CSS'],
+    url: 'https://tribun-beige.vercel.app',
+    github: 'https://github.com/sercanfurunci/tribun',
+  },
 ]
 
 function Tag({ label }) {

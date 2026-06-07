@@ -74,6 +74,10 @@
       {
         "name": "Kadın Emeği",
         "description": "TÜBİTAK destekli ikinci el pazar yeri uygulaması. Spring Boot ile backend servisleri ve React.js ile frontend özellikleri geliştirildi."
+      },
+      {
+        "name": "Tribun",
+        "description": "Futbol tahmin ligi uygulaması. Kullanıcılar maç sonuçlarını tahmin ederek sıralamada yükselir. React 19, TypeScript ve Tailwind CSS v4 ile geliştirilen frontend; Node.js, Express ve PostgreSQL ile güçlendirilen backend."
       }
     ]
   },

@@ -74,6 +74,10 @@
       {
         "name": "Kadın Emeği",
         "description": "A TÜBİTAK-supported second-hand marketplace application. Backend services built with Spring Boot and frontend features developed with React.js."
+      },
+      {
+        "name": "Tribun",
+        "description": "A football prediction league app where users climb the leaderboard by predicting match results. Frontend built with React 19, TypeScript, and Tailwind CSS v4; backend powered by Node.js, Express, and PostgreSQL."
       }
     ]
   },
