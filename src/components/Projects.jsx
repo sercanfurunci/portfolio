@@ -19,7 +19,7 @@ const projectMeta = [
   },
   {
     tags: ['React 19', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'Tailwind CSS'],
-    url: 'https://tribun-beige.vercel.app',
+    url: 'https://tribun.furunci.tech',
     github: 'https://github.com/sercanfurunci/tribun',
   },
 ]
