@@ -8,8 +8,8 @@
   },
   "hero": {
     "greeting": "Merhaba, ben",
-    "title": "Junior Full-Stack Developer",
-    "description": "React.js ve Spring Boot odaklı, kullanıcı dostu web uygulamaları ve ölçeklenebilir backend servisleri geliştirmeye tutkulu bir yazılım geliştiriciyim.",
+    "title": "Full-Stack Developer",
+    "description": "Next.js, TypeScript ve Node.js kullanarak fikir aşamasından canlı ortama kadar full-stack web uygulamaları geliştiriyorum. REST API, AI entegrasyonu ve modern deployment süreçlerinde deneyimliyim.",
     "cta_projects": "Projelerimi Gör",
     "cta_contact": "İletişime Geç",
     "scroll": "Kaydır"
@@ -18,8 +18,8 @@
     "label": "Hakkımda",
     "title": "Kimim, neler yapıyorum?",
     "p1": "Karabük Üniversitesi Bilgisayar Mühendisliği mezunuyum. Lisans eğitimimin yanı sıra Litvanya'daki Vilnius Gediminas Teknik Üniversitesi'nde değişim programına katıldım.",
-    "p2": "Staj ve TÜBİTAK destekli projeler aracılığıyla full-stack geliştirme konusunda uygulamalı deneyim kazandım. React.js ve Spring Boot üzerinde güçlü bir odakla, kullanıcı dostu web uygulamaları ve RESTful API'ler geliştiriyorum.",
-    "p3": "Ürün odaklı ekiplerde Junior Full-Stack Developer olarak büyümeye ve katkı sağlamaya motive olmuş durumdayım.",
+    "p2": "Staj ve TÜBİTAK destekli projeler aracılığıyla full-stack geliştirme konusunda uygulamalı deneyim kazandım. Next.js, TypeScript, Node.js ve Spring Boot kullanarak web uygulamaları geliştiriyorum; REST API, kimlik doğrulama, AI entegrasyonu ve deployment süreçlerini yönetiyorum.",
+    "p3": "Mayıs 2025'ten bu yana bağımsız full-stack geliştirici olarak kendi ürünlerimi (Birik, MAKAS, Tribun) geliştirip canlıya alıyorum. Docker, Vercel ve Railway ile production ortamlarını yönetiyorum.",
     "facts": {
       "location_label": "Konum",
       "location_value": "Kocaeli, Türkiye",
@@ -40,10 +40,10 @@
         "role": "Software Developer (Stajyer)",
         "period": "Ağu 2022 – Oca 2023",
         "items": [
-          "React.js, Redux ve Redux Toolkit kullanarak responsive kullanıcı arayüzleri geliştirdim.",
-          "Yeniden kullanılabilir UI componentları oluşturarak paylaşılan bir tasarım sistemine katkıda bulundum.",
-          "Uluslararasılaştırma (i18n) özellikleri implement ettim.",
-          "Agile sprintlerde çalışarak frontend ekibiyle iş birliği yaptım."
+          "Redux ve Redux Toolkit kullanarak karmaşık iş akışlarında öngörülebilir state yönetimi sağlayan responsive React.js arayüzleri geliştirdim.",
+          "Ekibin paylaşılan tasarım sisteminin temelini oluşturan yeniden kullanılabilir ve erişilebilir bir UI bileşen kütüphanesi tasarladım.",
+          "Ürünün çok dilli kitlelere hizmet verebilmesini sağlayan kapsamlı bir i18n desteği uyguladım.",
+          "İki haftalık agile sprintlerde kıdemli mühendislerle birlikte stand-up, kod incelemesi ve sprint planlamasına katıldım."
         ]
       },
       {
@@ -52,9 +52,21 @@
         "role": "Software Developer",
         "period": "Şub 2024 – Mar 2024",
         "items": [
-          "Blockchain entegrasyonlu bir web uygulamasına katkıda bulundum.",
-          "Firebase kullanarak kripto ödeme sistemi üzerinde çalıştım.",
-          "Frontend–backend entegrasyonunu destekledim."
+          "Blockchain entegreli bir web uygulamasına katkıda bulundum; React.js arayüzleri ile Firebase tabanlı kripto ödeme sistemi arasındaki entegrasyondan sorumlu oldum.",
+          "İstemci tarafı state ile asenkron blockchain işlem akışları arasındaki entegrasyon sorunlarını çözerek ödeme hattının güvenilirliğini artırdım."
+        ]
+      },
+      {
+        "company": "Bağımsız Full-Stack Geliştirici",
+        "location": "Kişisel Ürünler",
+        "role": "Full-Stack Developer",
+        "period": "May 2025 – Devam Ediyor",
+        "items": [
+          "Fikir aşamasından canlı ortama kadar full-stack web ve mobil uygulamalar geliştirip yayına alıyorum.",
+          "Next.js, React, TypeScript, Node.js, Spring Boot ve PostgreSQL kullanarak modern web uygulamaları geliştiriyorum.",
+          "REST API, kimlik doğrulama, AI entegrasyonları, veritabanı tasarımı ve deployment süreçlerini yönetiyorum.",
+          "Docker, Vercel ve Railway kullanarak uygulamaları canlı ortama alıp bakımını sürdürüyorum.",
+          "Birik (Kişisel Finans), MAKAS (Berber Yönetim SaaS) ve Tribun (Futbol Tahmin) projelerini geliştiriyor ve sürdürüyorum."
         ]
       }
     ]
@@ -64,20 +76,32 @@
     "title": "Neler Geliştirdim?",
     "items": [
       {
+        "name": "MAKAS",
+        "description": "Birden fazla salonu bağımsız olarak ölçeklendirebilen berber randevu ve salon yönetimi SaaS platformu. Rol tabanlı kimlik doğrulama (sahip, personel, müşteri), Cloudinary medya yönetimi ve Prisma ORM ile geliştirildi."
+      },
+      {
         "name": "Birik",
-        "description": "Kişisel bütçe ve harcama takip uygulaması. Kullanıcıların gelir/gider yönetimi yapabileceği, kategorilere göre filtreleme ve görselleştirme imkânı sunan bir web uygulaması."
+        "description": "Gelir/gider takibi, bütçeler, abonelikler, tasarruf hedefleri ve düzenli işlemleri kapsayan full-stack kişisel finans uygulaması. Anthropic API (Claude Haiku) ile AI destekli banka ekstresi içe aktarma, JWT kimlik doğrulama ve canlı döviz kurlarıyla çoklu para birimi desteği."
       },
       {
-        "name": "LstmCryptoBot",
-        "description": "Python ve LSTM sinir ağları kullanılarak geliştirilen yapay zeka tabanlı kripto para ticaret botu. Bitcoin fiyat verileri üzerinde zaman serisi analizi yapılarak TensorFlow/Keras ile model eğitildi. Backtrader ile strateji backtesting ve Docker ile konteynerizasyon gerçekleştirildi."
-      },
-      {
-        "name": "Kadın Emeği",
-        "description": "TÜBİTAK destekli ikinci el pazar yeri uygulaması. Spring Boot ile backend servisleri ve React.js ile frontend özellikleri geliştirildi."
+        "name": "Akinel Oto Yedek Parça",
+        "description": "Otomotiv yedek parça sektöründe faaliyet gösteren müşteri için geliştirilen kurumsal web sitesi. Ürün kataloğu, iletişim ve marka kimliğini yansıtan modern, mobil uyumlu tasarım."
       },
       {
         "name": "Tribün",
-        "description": "Futbol tahmin ligi uygulaması. Kullanıcılar maç sonuçlarını tahmin ederek sıralamada yükselir. React 19, TypeScript ve Tailwind CSS v4 ile geliştirilen frontend; Node.js, Express ve PostgreSQL ile güçlendirilen backend."
+        "description": "Kullanıcıların özel ligler kurup maç skorlarını tahmin ederek canlı lider tablosunda arkadaşlarıyla yarıştığı sosyal tahmin oyunu platformu. İlk sezon olarak 2026 FIFA Dünya Kupası ile lansmanı yapıldı."
+      },
+      {
+        "name": "Birik Mobile",
+        "description": "Birik kişisel finans uygulamasının React Native ve Expo ile geliştirilen çoklu platform mobil versiyonu. Tek kod tabanından iOS ve Android'i hedefleyerek mevcut Birik REST API'si üzerinde çalışıyor."
+      },
+      {
+        "name": "LstmCryptoBot",
+        "description": "Python ve LSTM sinir ağları kullanılarak geliştirilen yapay zeka tabanlı kripto para ticaret botu. Bitcoin fiyat verileri üzerinde zaman serisi analizi, TensorFlow/Keras ile model eğitimi, Backtrader ile backtesting ve Docker ile konteynerizasyon."
+      },
+      {
+        "name": "Kadın Emeği",
+        "description": "TÜBİTAK destekli ikinci el pazar yeri uygulaması. Gerçek son kullanıcılara hitap eden platform için Spring Boot ile RESTful backend servisleri ve React.js ile frontend özellikleri geliştirildi."
       }
     ]
   },
@@ -87,7 +111,7 @@
     "groups": [
       { "title": "Frontend" },
       { "title": "Backend" },
-      { "title": "Araçlar & Diğer" }
+      { "title": "DevOps & Araçlar" }
     ],
     "education_title": "Eğitim",
     "education": [

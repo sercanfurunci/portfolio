@@ -8,8 +8,8 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "title": "Junior Full-Stack Developer",
-    "description": "A passionate software developer focused on React.js and Spring Boot, building user-friendly web applications and scalable backend services.",
+    "title": "Full-Stack Developer",
+    "description": "I build full-stack web applications from idea to production using Next.js, TypeScript, and Node.js. Experienced in REST APIs, AI integrations, and modern deployment pipelines.",
     "cta_projects": "View Projects",
     "cta_contact": "Get in Touch",
     "scroll": "Scroll"
@@ -18,8 +18,8 @@
     "label": "About",
     "title": "Who am I and what do I do?",
     "p1": "I'm a Computer Engineering graduate from Karabük University. Alongside my undergraduate studies, I participated in an exchange program at Vilnius Gediminas Technical University in Lithuania.",
-    "p2": "I gained hands-on full-stack development experience through internships and TÜBİTAK-supported projects. With a strong focus on React.js and Spring Boot, I build user-friendly web applications and RESTful APIs.",
-    "p3": "I'm motivated to grow and contribute as a Junior Full-Stack Developer in product-focused teams.",
+    "p2": "I gained hands-on full-stack development experience through internships and TÜBİTAK-supported projects. I build web applications using Next.js, TypeScript, Node.js, and Spring Boot — handling REST APIs, authentication, AI integrations, database design, and deployment.",
+    "p3": "Since May 2025, I've been working as an independent full-stack developer, building and shipping my own products (Birik, MAKAS, Tribun) and managing production environments with Docker, Vercel, and Railway.",
     "facts": {
       "location_label": "Location",
       "location_value": "Kocaeli, Turkey",
@@ -40,10 +40,10 @@
         "role": "Software Developer (Intern)",
         "period": "Aug 2022 – Jan 2023",
         "items": [
-          "Developed responsive user interfaces using React.js, Redux, and Redux Toolkit.",
-          "Built reusable UI components and contributed to a shared design system.",
-          "Implemented internationalization (i18n) features.",
-          "Worked in agile sprints and collaborated with frontend team members."
+          "Developed and shipped responsive React.js UIs with Redux and Redux Toolkit for predictable state management in complex workflows.",
+          "Designed a reusable, accessible UI component library that became the foundation of the team's shared design system.",
+          "Implemented comprehensive i18n support enabling the product to serve multilingual audiences.",
+          "Worked in two-week agile sprints — participating in stand-ups, code reviews, and sprint planning with senior engineers."
         ]
       },
       {
@@ -52,9 +52,21 @@
         "role": "Software Developer",
         "period": "Feb 2024 – Mar 2024",
         "items": [
-          "Contributed to a blockchain-integrated web application.",
-          "Worked on a crypto payment system using Firebase.",
-          "Supported frontend–backend integration."
+          "Contributed to a blockchain-integrated web application, responsible for frontend-backend integration between React.js UIs and a Firebase-based crypto payment system.",
+          "Resolved integration issues between client-side state and async blockchain transaction flows, improving payment pipeline reliability."
+        ]
+      },
+      {
+        "company": "Independent Full-Stack Developer",
+        "location": "Personal Products",
+        "role": "Full-Stack Developer",
+        "period": "May 2025 – Present",
+        "items": [
+          "Building, shipping, and maintaining full-stack web and mobile applications from idea to production.",
+          "Developing modern web applications using Next.js, React, TypeScript, Node.js, Spring Boot, and PostgreSQL.",
+          "Managing REST APIs, authentication, AI integrations, database design, and deployment pipelines.",
+          "Deploying and maintaining applications with Docker, Vercel, and Railway.",
+          "Building and maintaining Birik (Personal Finance), MAKAS (Barbershop Management SaaS), and Tribun (Football Prediction) products."
         ]
       }
     ]
@@ -64,20 +76,32 @@
     "title": "What Have I Built?",
     "items": [
       {
+        "name": "MAKAS",
+        "description": "A comprehensive barbershop appointment and salon management SaaS platform that can independently scale across multiple salons. Features role-based auth (owner, staff, customer), Cloudinary media management, and Prisma ORM."
+      },
+      {
         "name": "Birik",
-        "description": "A personal budget and expense tracking application. A web app that allows users to manage income/expenses, filter by categories, and visualize their financial data."
+        "description": "A production full-stack personal finance app covering income/expense tracking, budgets, subscriptions, savings goals, and recurring transactions. Features AI-powered bank statement import via Anthropic API (Claude Haiku), JWT auth, and multi-currency support with live exchange rates."
       },
       {
-        "name": "LstmCryptoBot",
-        "description": "An AI-based cryptocurrency trading bot built with Python and LSTM neural networks. Time-series analysis was performed on Bitcoin price data, models trained with TensorFlow/Keras, backtested with Backtrader, and containerized with Docker."
-      },
-      {
-        "name": "Kadın Emeği",
-        "description": "A TÜBİTAK-supported second-hand marketplace application. Backend services built with Spring Boot and frontend features developed with React.js."
+        "name": "Akinel Oto Yedek Parça",
+        "description": "A corporate website built for a client in the automotive spare parts industry. Modern, mobile-friendly design featuring a product catalog, contact information, and brand identity presentation."
       },
       {
         "name": "Tribün",
-        "description": "A football prediction league app where users climb the leaderboard by predicting match results. Frontend built with React 19, TypeScript, and Tailwind CSS v4; backend powered by Node.js, Express, and PostgreSQL."
+        "description": "A social prediction game platform where users create private leagues, predict match scores, and compete on a live leaderboard. Launched with the 2026 FIFA World Cup as its first season, designed to support future seasons and tournaments."
+      },
+      {
+        "name": "Birik Mobile",
+        "description": "A cross-platform mobile app for Birik personal finance, built with React Native and Expo targeting iOS and Android from a single codebase. Consumes the existing Birik REST API while adapting UI/UX patterns for native mobile interactions."
+      },
+      {
+        "name": "LstmCryptoBot",
+        "description": "An AI-based cryptocurrency trading bot built with Python and LSTM neural networks. Time-series analysis on Bitcoin price data, models trained with TensorFlow/Keras, strategy backtesting with Backtrader, and fully containerized with Docker."
+      },
+      {
+        "name": "Kadın Emeği",
+        "description": "A TÜBİTAK-supported second-hand marketplace application. Built RESTful backend services with Spring Boot and delivered React.js frontend features in parallel for a platform serving real end-users."
       }
     ]
   },
@@ -87,7 +111,7 @@
     "groups": [
       { "title": "Frontend" },
       { "title": "Backend" },
-      { "title": "Tools & Other" }
+      { "title": "DevOps & Tools" }
     ],
     "education_title": "Education",
     "education": [

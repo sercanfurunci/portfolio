@@ -3,24 +3,46 @@ import { SectionLabel } from './About'
 
 const projectMeta = [
   {
-    tags: ['React', 'Node.js', 'PostgreSQL', 'REST API'],
+    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'Cloudinary', 'Vercel'],
+    url: null,
+    github: null,
+    badge: 'Geliştirme Aşamasında',
+  },
+  {
+    tags: ['Next.js', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'Anthropic API'],
     url: 'https://birik.furunci.tech',
     github: null,
+    badge: null,
+  },
+  {
+    tags: ['Web', 'Responsive', 'Kurumsal'],
+    url: 'https://akinelotoyedekparca.com.tr',
+    github: null,
+    badge: null,
+  },
+  {
+    tags: ['Next.js', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL'],
+    url: 'https://tribun.furunci.tech',
+    github: null,
+    badge: 'Geliştirme Aşamasında',
+  },
+  {
+    tags: ['React Native', 'Expo', 'TypeScript'],
+    url: null,
+    github: null,
+    badge: 'Geliştirme Aşamasında',
   },
   {
     tags: ['Python', 'TensorFlow', 'Keras', 'LSTM', 'Docker', 'Backtrader'],
     url: null,
     github: 'https://github.com/sercanfurunci',
+    badge: null,
   },
   {
     tags: ['React.js', 'Spring Boot', 'Java', 'MySQL'],
     url: null,
     github: 'https://github.com/sercanfurunci',
-  },
-  {
-    tags: ['React 19', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'Tailwind CSS'],
-    url: 'https://tribun.furunci.tech',
-    github: 'https://github.com/sercanfurunci/tribun',
+    badge: null,
   },
 ]
 
@@ -53,7 +75,12 @@ export default function Projects() {
                 className="bg-[#13131a] border border-[#1e1e2a] rounded-xl p-6 flex flex-col gap-4 hover:border-[#c084fc]/30 transition-colors"
               >
                 <div className="flex items-start justify-between gap-4">
-                  <h3 className="text-[#f3f4f6] font-semibold text-lg">{project.name}</h3>
+                  <div className="flex flex-col gap-1">
+                    <h3 className="text-[#f3f4f6] font-semibold text-lg">{project.name}</h3>
+                    {meta.badge && (
+                      <span className="text-xs text-[#f59e0b] font-mono">{meta.badge}</span>
+                    )}
+                  </div>
                   <div className="flex gap-3 shrink-0">
                     {meta.github && (
                       <a

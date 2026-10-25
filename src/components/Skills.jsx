@@ -2,9 +2,9 @@ import { useTranslation } from 'react-i18next'
 import { SectionLabel } from './About'
 
 const skillData = [
-  ['React.js', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Redux', 'SASS/SCSS', 'Tailwind CSS'],
-  ['Java', 'Spring Boot', 'Node.js', 'REST API', 'MySQL', 'PostgreSQL'],
-  ['Git', 'GitHub', 'Docker', 'Python', 'TensorFlow', 'Firebase'],
+  ['Next.js', 'React.js', 'React Native', 'TypeScript', 'JavaScript', 'Redux', 'Tailwind CSS', 'HTML5', 'CSS3'],
+  ['Node.js', 'Express', 'Next.js API Routes', 'Prisma ORM', 'Java', 'Spring Boot', 'PostgreSQL', 'MySQL', 'Firebase'],
+  ['Docker', 'Vercel', 'Railway', 'Cloudinary', 'Anthropic API', 'Git', 'GitHub', 'Python', 'TensorFlow'],
 ]
 
 export default function Skills() {
